@@ -1,3 +1,8 @@
+body{
+    font: Arial, Helvetica, sans-serif;
+}
+
+
 #container {
     width: 1050px;
     /*border: 1px solid grey;*/
@@ -110,4 +115,62 @@ ul{
     color: rgb(1, 102, 1);
     text-align: justify;
 
+}
+
+.sidebar{
+    height:500px;
+    width: 450px;
+    border: 1px solid limegreen;
+    border-radius : 20px;
+    padding: 10px 30px;
+}
+
+.sidebar h3{
+    color: pink;
+    font-size: 30px;
+
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(51, 1, 1);
+    
+}
+
+.sidebar ul li{
+    padding-bottom: 6px;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a:active{
+    text-decoration: none;
+    color: maroon;
+    font-size:23px;
+    font-weight: bold;
+    -webkit-transition: font-size 0.5s ease;
+    -moz-transition: font-size 0.5s ease;
+    -o-transition: font-size 0.5s ease;
+    -ms-transition: font-size 0.5s ease;
+    transition: font-size 0.5s ease;
+
+} 
+
+#leftSidebar{
+    float: left;
+}
+
+#rightSidebar{
+    float: right;
+}
+
+.clear{
+    padding-top: 15px;
+    
+}
+
+.footer{
+    height: 50px;
+    background: linear-gradient(rgb(0, 194, 243), rgb(255, 255, 109) );
+    padding: 10px 30px;
+    
 }
